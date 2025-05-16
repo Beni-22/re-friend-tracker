@@ -180,6 +180,13 @@
                         "color": "wisteria",
                         "page": "groupspage"
                     }
+                    ,{
+                        "type": "button",
+                        "name": "Activity",
+                        "icon": "fa-user-injured",
+                        "color": "green",
+                        "page": "activitypage"
+                    }
                 ]
             },
             {
@@ -257,6 +264,32 @@
                         "color": "wisteria",
                         "search": true,
                         "url": "/group",
+                        "form": {
+                            "form": "GroupForm"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "activitypage",
+                "elementList": [
+                    {
+                        "type": "backbutton"
+                    },
+                    {
+                        "type": "newButton",
+                        "name": "NewGroup",
+                        "icon": "fa-user-injured",
+                        "color": "green",
+                        "form": {
+                        "form": "GroupForm"
+                        }
+                    },{
+                        "type": "list",
+                        "icon": "fa-user-injured",
+                        "color": "green",
+                        "search": true,
+                        "url": "/activity",
                         "form": {
                             "form": "GroupForm"
                         }
