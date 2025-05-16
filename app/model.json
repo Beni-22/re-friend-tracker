@@ -341,7 +341,7 @@
           },
           {
             "type": "editButton",
-            "name": "EditFriend",
+            "name": "Edit Friend",
             "icon": "fa-user",
             "color": "green",
             "form": {
@@ -350,7 +350,7 @@
           },
           {
             "type": "newButton",
-            "name": "AddActivity",
+            "name": "Add Activity",
             "icon": "fa-calendar-plus",
             "color": "green",
             "form": {
@@ -358,10 +358,13 @@
             }
           },
           {
+            "type": "search"
+          },
+          {
             "type": "list",
             "icon": "fa-calendar",
             "color": "orange",
-            "search": false,
+            "search": true,
             "url": "/friend/:friendKey/activity",
             "form": {
               "form": "AddActivityForm"
